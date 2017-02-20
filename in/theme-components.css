@@ -1,0 +1,539 @@
+/**
+ *
+ * @package        totarasocial
+ * @subpackage     --
+ * @author         Dave Wallace
+ * @license        http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @copyright      For copyright information on Totara Social, please see the README file distributed with this
+ *                 software.
+ * @copyright  (C) 2014 onwards Totara Learning Solutions Ltd
+ *
+ */
+tr#statusupdates_title_container th {
+  padding-top: 6px; }
+
+textarea#statusupdates_title {
+  padding: 3px 3px 4px 3px; }
+
+.blockinstance-content {
+  overflow-y: hidden;
+  position: static; }
+
+#quickcontenttabs .ui-tabs-panel {
+  padding: 0; }
+
+#quickcontenttabs.ui-tabs .ui-tabs-nav li {
+  border-left: none;
+  border-right: none;
+  float: none; }
+
+#quickcontenttabs.ui-tabs {
+  position: static; }
+
+#quickcontenttabs.ui-widget-content {
+  border: none; }
+
+#quickcontenttabs .ui-state-active {
+  border: none; }
+
+#quickcontenttabs .submitcancel {
+  font-size: 1em; }
+
+.placeholder {
+  color: #aaa; }
+
+#quickcontenttabs form table {
+  width: 100%; }
+
+form#statusupdates table th {
+  min-width: 30px; }
+
+/* For IE9 */
+.ie form#question > table > tbody > tr > th,
+.ie form#ideas > table > tbody > tr > th {
+  width: 10% !important; }
+
+tr#statusupdates_sharewith_container th,
+tr#question_sharewith_container th,
+tr#ideas_sharewith_container th {
+  padding-top: 10px; }
+
+#quickcontenttabs textarea {
+  width: calc(100% - 6px) !important; }
+
+#quickcontenttabs input.text {
+  width: calc(100% - 6px) !important; }
+
+#quickcontenttabs .select2-container {
+  width: calc(100% - 6px) !important; }
+
+#quickcontenttabs input.select2-input {
+  width: calc(100% - 6px) !important; }
+
+form#question > table > tbody > tr > th,
+form#question > table > tbody > tr > td,
+form#ideas > table > tbody > tr > th,
+form#ideas > table > tbody > tr > td {
+  display: block;
+  width: calc(100% - 10px); }
+
+form#question > table > tbody > tr > td.errmsg,
+form#ideas > table > tbody > tr > td.errmsg {
+  width: 96%; }
+ div.search-sort.fr {
+  padding-bottom: 12px;
+  width: 100%; }
+
+#forumtopics div.width-64 {
+  width: 64%;
+  padding-top: 5px; }
+
+#forumtopics div.width-3 {
+  float: left;
+  position: relative;
+  top: 6px;
+  width: 3%; }
+
+#forumtopics div.head.width-64 {
+  margin-left: 3%; }
+
+.topicpost {
+  background: #FFFFFF; }
+
+.topicpost.padding {
+  padding: 0 5px 40px; }
+
+.topicpost.extra-padding {
+  padding-bottom: 50px; }
+
+.topicpost .topicpost-header {
+  margin-top: 65px; }
+
+.topicpost .post-header {
+  padding-top: 5px; }
+
+html[dir="rtl"] .topicpost .topic-btn, .topicpost .topic-btn {
+  margin: 10px 0 0; }
+
+.topicpost .postedits.bg-white {
+  background: #FFFFFF; }
+
+.topicpost .topic-info {
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 5px;
+  padding-left: 10px; }
+
+html[dir="rtl"] .topicpost .topic-info {
+  padding-left: 0;
+  padding-right: 10px; }
+
+.topicpost .edit-buttons {
+  width: 80%; }
+
+.subpage .rbuttons {
+  margin-top: -40px; }
+
+.subpage h2 {
+  width: 87%; }
+
+/* for 600px or less */
+@media screen and (max-width: 600px) {
+  .subpage .rbuttons {
+    margin: 10px 0; }
+  html[dir=rtl] .subpage .rbuttons {
+    float: none; } }
+
+/* for 450px or less */
+@media screen and (max-width: 450px) {
+  #forumslist div.inline, #forumtopics div.inline {
+    display: block;
+    width: 98%; }
+  #topiclist div.topic.inline.width-64 div.inline.sticker {
+    display: inline-block;
+    width: 65px; }
+  #topiclist div.topic.inline.width-64 div.inline.stickers {
+    display: inline-block;
+    width: 135px; }
+  #forumslist div.head,
+  #forumtopics div.head,
+  #forumtopics div.inline.width-10.top.center,
+  #forumslist div.inline.width-10.top.center {
+    display: none; }
+  #forumtopics div.width-3 {
+    top: 0;
+    right: 3px; }
+  #forumtopics div.r0:first-child,
+  #forumslist div.r0:first-child {
+    border-top: none; }
+  html[dir="rtl"] #forumtopics div.width-3 {
+    right: -2px; } }
+
+html[dir="rtl"] #forumslist div.head,
+html[dir="rtl"] #forumtopics div.head {
+  padding: 4px 3px 5px 0; }
+
+html[dir="rtl"] #forumslist div.inline,
+html[dir="rtl"] #forumtopics div.inline {
+  padding: 0 2px 3px 0; }
+
+html[dir="rtl"] #forumslist div.top,
+html[dir="rtl"] #forumtopics div.top {
+  padding-top: 5px; }
+
+html[dir="rtl"] #forumtopics div.head.width-64 {
+  margin-right: 0; }
+
+html[dir="rtl"] #forumtopics div.width-64 {
+  padding-top: 5px; }
+
+html[dir="rtl"] #forumtopics div.width-3 {
+  float: right; }
+
+/* topic list */
+#viewforum {
+  padding: 10px;
+  margin: 0; }
+
+#topiclist small.block {
+  display: block;
+  margin-top: -5px; }
+
+#topiclist h3.title {
+  vertical-align: 10px; }
+
+.bottom-3 {
+  margin-bottom: 3px; }
+
+#viewforum .rbuttons {
+  margin-top: -80px; }
+
+.topic .watchbutton {
+  margin-left: 10px; }
+
+/* to get user picts to align with text */
+.forumuser,
+.inlinelist a {
+  vertical-align: middle; }
+
+/* forum action selector */
+.forumselectwrap {
+  margin: 5px 0; }
+
+/* forum footer */
+.forumfooter {
+  margin: 10px; }
+
+/* admin & moderator */
+.forummods {
+  padding: 5px;
+  margin: 5px 0; }
+
+.forumadmods span {
+  margin-right: 5px; }
+
+.forumadmods {
+  font-size: 0.786em; }
+
+.forum {
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: normal;
+  margin-right: 10px;
+  padding: 1px 5px; }
+
+.forum.topic-closed {
+  background-color: #e25752; }
+
+.forum.topic-pinned {
+  background-color: #0a76d4; }
+
+html[dir="rtl"] .forum {
+  margin-right: 0;
+  margin-left: 10px; }
+
+html[dir="rtl"] a.postactions {
+  padding-left: 0;
+  padding-right: 10px; }
+
+html[dir="rtl"] a.postactions.topicreport {
+  padding-left: 20px;
+  padding-right: 0; }
+
+/* posts */
+.forumpost {
+  clear: both; }
+
+.postedits .posttime {
+  font-size: 0.9em;
+  padding-right: 5px; }
+
+.forumpostleft .author img {
+  margin: 3px 5px 3px 3px; }
+
+.forumpostleft .author .poster {
+  margin: 0; }
+
+.postedits .poster {
+  padding-right: 25px; }
+
+html[dir="rtl"] .postedits .poster {
+  padding-right: 0;
+  padding-left: 25px; }
+
+.topicpost .forumpostleft {
+  font-size: 1em; }
+
+.topicpost .forumpostleft {
+  background: #f6f7f7;
+  text-align: left;
+  width: 40px; }
+
+html[dir="rtl"] .topicpost .forumpostleft {
+  text-align: right; }
+
+.postedits {
+  padding: 10px;
+  -ms-word-break: break-all; }
+
+.topicpost .postedits {
+  background: #f6f7f7; }
+
+.postedits a {
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+.postbtns {
+  text-align: right;
+  margin: 7px 0 10px 0; }
+
+.postbtns a {
+  text-decoration: none;
+  cursor: default;
+  line-height: 2.3333em;
+  margin: 0 0 0 5px; }
+
+.deletedpost {
+  color: #999999;
+  font-size: 13px; }
+
+.postreply {
+  padding: 0 0 0 10px; }
+
+a.postactions {
+  font-size: 0.9em;
+  padding-left: 10px; }
+
+a.postactions:hover {
+  text-decoration: none; }
+
+a.postactions.topicreport {
+  padding-right: 20px;
+  padding-top: 15px; }
+
+.editstopost {
+  padding: 5px 10px;
+  margin-bottom: 10px; }
+
+.editstopost ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.editstopost ul li {
+  padding: 0;
+  margin: 0 0 3px 0; }
+
+.editstopost ul li a {
+  font-size: 0.9167em; }
+
+.editstopost ul li a img {
+  vertical-align: sub; }
+
+.message.closed {
+  background: #FFF3E0;
+  margin: 5px -5px; }
+
+.postedits .date-edits {
+  display: inline-block; }
+
+/* for 450px or less */
+@media screen and (max-width: 450px) {
+  .postedits .date-edits {
+    display: block; }
+  .topicpost .topic-info {
+    display: block;
+    margin-left: 50px; }
+  html[dir="rtl"] .topicpost .topic-info {
+    margin-left: 0;
+    margin-right: 50px; } }
+
+/* objection */
+.btn-objection {
+  background: transparent url(../images/objectionable_small.png) no-repeat 0 50%;
+  background-image: url(../images/objectionable_small.svg), none;
+  padding-left: 18px;
+  line-height: 16px; }
+
+#reportpost {
+  background: #FEE7E7;
+  padding: 5px;
+  margin-bottom: 10px; }
+
+.forumpost.reported {
+  border-color: #FEE7E7; }
+
+.forumpost.reported .postedits {
+  background-color: #FEE7E7; }
+
+.reportedaction {
+  background-color: #FEE7E7;
+  clear: both;
+  padding: 10px; }
+
+.reportedaction .postnotobjectionable,
+.reportedaction .postwithdrawobjectionable {
+  display: inline-block;
+  width: 80%;
+  font-weight: bold; }
+
+.reportedaction .btn-notobjectionable,
+.reportedaction .btn-withdrawobjectionable {
+  float: right;
+  display: inline-block;
+  position: relative;
+  right: -2px; }
+
+.reportedaction.actions {
+  padding-bottom: 40px; }
+
+.reportedaction.actions a.reject {
+  padding: 5px 0 0 10px; }
+
+html[dir="rtl"] .reportedaction.actions a.reject {
+  padding: 5px 10px 0 0; }
+
+.reported-content td.reportedpost {
+  padding: 0 10px 10px;
+  background: #f6f7f7; }
+
+#forumtopics .containobjectionable {
+  background-color: #FEE7E7; }
+
+.likebutton {
+  background: url(../images/thumb_up.svg) no-repeat 0 0;
+  padding-left: 22px; }
+
+.likebutton.active {
+  background: url(../images/thumb_up_active.svg) no-repeat 0 0;
+  padding-left: 22px; }
+
+.watchbutton {
+  background: url(../images/watch.png) no-repeat 0 0;
+  background-image: url(../images/watch.svg), none;
+  padding-left: 22px;
+  background: url(../images/watch.png) no-repeat 0 0\9;
+  margin-right: 10px; }
+
+.watchbutton.active {
+  background: url(../images/watching.png) no-repeat 0 0;
+  background-image: url(../images/watching.svg), none;
+  padding-left: 22px;
+  background: url(../images/watching.png) no-repeat 0 0\9; }
+
+.togglebutton {
+  font-size: 0.9em;
+  text-transform: capitalize; }
+
+a.togglebutton {
+  line-height: 16px;
+  padding-left: 20px; }
+
+a.togglebutton:hover {
+  text-decoration: none; }
+
+a.togglebutton.topicpost-info {
+  padding-left: 0; }
+
+html[dir="rtl"] .watchbutton,
+html[dir="rtl"] .watchbutton.active {
+  background-position: right 0;
+  padding-left: 0;
+  padding-right: 22px;
+  margin-left: 10px;
+  margin-right: 0; }
+
+html[dir="rtl"] .center {
+  text-align: center; }
+
+html[dir="rtl"] .reportedaction .btn-notobjectionable,
+html[dir="rtl"] .reportedaction .btn-withdrawobjectionable {
+  float: left; }
+
+html[dir="rtl"] .btn-objection {
+  padding-right: 18px; }
+
+html[dir="rtl"] .likebutton {
+  background-position: right center;
+  padding-left: 0;
+  padding-right: 20px; }
+
+html[dir="rtl"] span.report {
+  background-position: right center;
+  padding-left: 0;
+  padding-right: 18px; }
+
+.postedits .likebutton {
+  float: right;
+  margin-left: 14px; }
+
+html[dir="rtl"] .postedits .likebutton {
+  float: left;
+  margin-left: 0;
+  margin-right: 14px; }
+
+.postedits .btn-del {
+  margin-left: 2px;
+  margin-right: 4px; }
+
+.postedits .btn-edit {
+  margin-left: 2px;
+  margin-right: 2px; }
+
+.postedits .btn-reply {
+  margin-left: 4px;
+  margin-right: 2px;
+  line-height: 16px; }
+
+.icon-btn-reply {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: url("../images/reply_small.svg"), none;
+  background-origin: padding-box;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  padding-left: 15px; }
+
+.edits-hyphen {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.edits-content {
+  display: inline-block; }
+
+html[dir="rtl"] .postedits .btn-del {
+  margin-left: 4px;
+  margin-right: 2px; }
+
+html[dir="rtl"] .postedits .btn-reply {
+  margin-left: 2px;
+  margin-right: 4px; }
+
+html[dir="rtl"] .postedits .posttime {
+  padding-right: 0;
+  padding-left: 5px; }

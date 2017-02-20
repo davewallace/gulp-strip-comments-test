@@ -1,0 +1,21 @@
+{
+  "name": "totara-social-themes",
+  "version": "1.0.1",
+  "description": "Compiles SASS files into CSS for all Totara Social themes",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "event-stream": "^3.3.1",
+    "globule": "^0.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-help": "^1.6.1",
+    "gulp-strip-comments": "^2.4.4",
+    "path": "^0.11.14",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
