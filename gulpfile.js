@@ -12,7 +12,7 @@ var path = require('path');
 var cleanCSS = require('gulp-clean-css');
 
 // strip code comments from js/json/css
-var stripComments = require('gulp-strip-css-comments');
+var stripComments = require('gulp-strip-comments');
 
 // process .css files, adding UA vendor prefixes down to optionised browser support
 var autoprefixer = require('gulp-autoprefixer');
@@ -33,7 +33,7 @@ var runSequence = require('run-sequence');
 gulp.task('bundle-themes', 'Bundles each theme directory CSS into a single, optimised file.', function () {
 
     return gulp.src('theme.css', {cwd: 'in'})
-            .pipe(stripComments())
+            .pipe(stripComments.text())
 //            .pipe(stripComments({ignore: /url\([\w\s:\/=\-\+;,]*\)/g}))
 //        .pipe(concat(outputFileName))
 //            .pipe(concat.header('// file: <%= file.path %>\n'))
